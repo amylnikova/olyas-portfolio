@@ -1,0 +1,888 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: rgb(255,40,194);
+}
+
+body{ 
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000;
+    transition: 0.3s;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+}
+
+h1, h2 {
+    font-family: 'Anybody', cursive;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.01;
+    margin-bottom: 0.25rem;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.8rem 3.125rem ;
+}
+
+@media (max-width: 821px) {
+    header, footer {
+        padding: 2.8rem 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    header, footer {
+        padding: 2rem 0.5rem;
+    }
+}
+
+footer {
+    margin-top: 5rem;
+}
+
+.main-page footer,
+.about-me footer {
+    display: none;
+}
+
+
+
+@media (max-width: 821px) {
+    .main-page footer,
+    .about-me footer {
+        display: flex;
+        margin-top: 20rem;
+    }
+
+    .about-me footer .menu a {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-page footer,
+    .about-me footer {
+        margin-top: 15rem;
+    }
+}
+
+
+.social a,
+.menu a {
+    margin-right: 5rem;
+}
+
+@media (max-width: 821px) {
+    .social a,
+    .menu a {
+        margin-right: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .social a {
+        margin-right: 2rem;
+    }
+
+    .menu a.projects,
+    .menu a.about {
+        display: none;
+    }
+
+    .menu a.up {
+        margin-right: 0;
+    }
+}
+
+.menu a.projects {
+    margin-right: 0;
+}
+
+.avia-rebel {
+    background-color: #85AAC5;
+}
+
+.aviatema {
+    background-color: #FFE5E3;
+}
+
+
+.projects main,
+.adweetech main,
+.mon-camina main,
+.avia-rebel main,
+.aviatema main {
+    padding: 3.125rem;
+}
+
+@media (max-width: 821px) {
+    .adweetech main,
+    .mon-camina main,
+    .avia-rebel main,
+    .aviatema main,
+    .projects main {
+        padding: 1.5rem 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .projects main,
+    .adweetech main,
+    .mon-camina main,
+    .avia-rebel main,
+    .aviatema main {
+        padding: 0.5rem 0;
+    }
+}
+
+/* main page */
+
+.main-page {
+    background-image: url(/assets/bg-main1.png);
+    background-position: top left; 
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#about {
+    margin-right: 5rem;
+}
+
+.main-page main {
+    padding: 3.125rem;    
+}
+
+.hero-text {
+    max-width: 48rem;
+    padding-top: 1rem;
+}
+
+.image1 {
+    position: absolute;
+    width: 16rem;
+    left: 6%;
+    top: 110%;
+}
+
+.image2 {
+    position: absolute;
+    width: 14rem;
+    right: 0;
+    top: 60%;
+}
+
+.image3 {
+    position: absolute;
+    width: 12rem;
+    left: 276px;
+    top: 0px;
+}
+
+.image4 {
+    position: absolute;
+    width: 19rem;
+    right: 8%;
+    top: 115%;
+}
+
+.image5 {
+    position: absolute;
+    width: 15rem;
+    right: 5%;
+    top: 18%;
+}
+
+.image6 {
+    position: absolute;
+    width: 6rem;
+    left: 0;
+    top: 73%;
+}
+
+.image7 {
+    position: absolute;
+    width: 17rem;
+    right: 430px;
+    top: 520px;
+}
+
+.image8 {
+    position: absolute;
+    width: 6rem;
+    left: 40%;
+    top: 100%;
+}
+
+.image9 {
+    position: absolute;
+    width: 6rem;
+    left: 54%;
+    top: 8%;
+}
+
+
+@media (max-width: 821px) {
+    .main-page {
+        background-image: none;
+    }
+
+    .main-page main {
+        padding: 1.5rem;
+    }
+
+    #about {
+        margin-right: 3rem;
+    }
+
+    .hero-text {
+        padding-top: 5rem;
+    }
+
+    .image1 {
+        left: 0;
+        top: 60%;
+    }
+
+    .image2 {
+        top: 50%;
+    }
+
+    .image3 {
+        display: none;
+    }
+
+    .image4 {
+        display: none;
+    }
+
+    .image5 {
+        width: 8rem;
+        top: 10%;
+        right: 12%;
+    }
+
+    .image6 {
+        display: none;
+    }
+
+    .image7 {
+        width: 8rem;
+        height: 5.5rem;
+        top: 6%;
+        left: 20%;
+    }
+
+    .image8 {
+        left:auto;
+        top: 72%;
+        right: 7%;
+    }
+
+    .image9 {
+        display: none;
+    }
+
+
+
+}
+
+@media (max-width: 600px) {
+    #about {
+        margin-right: 1.5rem;
+    }
+
+    .main-page main {
+        padding: 0.5rem;
+    }
+
+    .image1 {
+        width: 10rem;
+        top: 65%;
+    }
+
+    .image2 {
+        width: 10rem;
+        top: 55%;
+    }
+
+    .image5 {
+        width: 6rem;
+    }
+
+    .image7 {
+        width: 6rem;
+        height: 4rem;
+        top: 7%;
+        left: 18%
+    }
+
+    .image8 {
+        width: 3.5rem;
+        top: 80%;
+        right: 5%;
+    }
+
+
+}
+
+/* about */
+
+.about-me {
+    background-image: url(/assets/2.png);
+    background-position: top left; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.about-me main {
+    padding: 0 3.125rem;
+}
+
+.qualities {
+    max-width: 17rem;
+    position: absolute;
+    right: 4.5%;
+}
+
+.education {
+    position: absolute;
+    top: 35%
+}
+
+.experience {
+    position: absolute;
+    top: 55%
+}
+
+.smiles {
+    text-align: center;
+}
+
+.image10 {
+    position: absolute;
+    width: 5.5rem;
+    left: 40%;
+    top: 48%;
+}
+
+.image11 {
+    position: absolute;
+    width: 15rem;
+    left: 0;
+    top: 85%;
+}
+
+.image12 {
+    position: absolute;
+    width: 13rem;
+    left: 60%;
+    top: 21%;
+}
+
+.image13 {
+    position: absolute;
+    width: 14rem;
+    left: 16%;
+    top: 0;
+}
+
+.image14 {
+    position: absolute;
+    width: 20rem;
+    right: 0;
+    top: 90%;
+}
+
+.image15 {
+    position: absolute;
+    width: 19rem;
+    left: 29%;
+    top: 110%;
+}
+
+@media (max-width: 821px) {
+    .about-me {
+        background-image: none;
+       
+    }
+
+    .about-me main {
+        padding: 0 1.5rem;
+    }
+
+    .qualities {
+        max-width: 19rem;
+        position: static;
+    }
+
+    .education {
+        position: static;
+        padding-left: 25rem;
+        padding-top: 2.5rem;
+    }
+
+    .experience {
+        position: static;
+        padding-top: 3.5rem;
+    }
+
+    .image10 {
+        width: 8rem;
+        left: 73%;
+        top: 37%;
+    }
+
+    .image11 {
+        width: 13rem;
+        left: 4%;
+        top: 93%;
+    }
+
+    .image12 {
+        left: 65%;
+        top: 14%;
+    }
+
+    .image13 {
+        width: 18rem;
+        left: 0;
+        top: 53%
+    }
+
+    .image14 {
+        top: 97%;
+    }
+
+    .image15 {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-me main {
+        padding: 0 0.5rem;
+    } 
+
+    .qualities {
+        max-width: 14rem;
+    }
+
+    .education {
+        padding-left: 13rem;
+    }
+
+    .image10 {
+        width: 5rem;
+        top: 30%;
+        left: 76%;
+
+    }
+
+    .image11 {
+        width: 10rem;
+        top: 79%;
+    }
+
+    .image12 {
+        width: 8rem;
+        top: 12%;
+        left: auto;
+        right: 0;
+    }
+
+    .image13 {
+        width: 13rem;
+        top: 44%;
+    }
+
+    .image14 {
+        width: 12rem;
+        top: 85%;
+    }
+}
+
+/* projects */
+
+
+.heading-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 5rem 0 1.5rem 0;
+}
+
+@media (max-width: 821px) {
+    .heading-container.vertical {
+        flex-direction: column;
+        justify-items: flex-start;
+        align-items: start;
+    }
+}
+
+.full-width {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+}
+
+.project-commercial .heading-container {
+    align-items: flex-end;
+    width: 45%;
+}
+
+.project-commercial .heading-container p {
+    margin-bottom: 0;
+}
+
+.commercial {
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+.hide-desktop {
+    display: none;
+}
+
+@media (max-width: 821px) {
+    .project-commercial .container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .project-commercial .heading-container{
+        width: 100%;
+    }
+
+    .commercial {
+        display: none;
+    }
+
+    .project-commercial .images img {
+        width: 100%;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+}
+
+
+.project-adweetech .heading-container {
+    margin-top: 70%;
+}
+
+.heading p {
+    margin-top: 0;
+}
+
+.cold-brew-gif {
+    width: 78rem;
+    position: absolute;
+    right: 0;
+    top: 60%;
+    z-index: 0;
+}
+
+.cold-brew {
+    width: 18rem;
+}
+
+.cold-brew1 {
+    position: absolute;
+    z-index: 1;
+    top: 33%;
+    left: 55%;
+}
+
+.cold-brew2 {
+    position: absolute;
+    z-index: 1;
+    top: 43%;
+    left: 75%;
+}
+
+.cold-brew3 {
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    left: 10%;
+}
+
+.cold-brew4 {
+    position: absolute;
+    z-index: 1;
+    top: 105%;
+    left: 4%;
+}
+
+@media (max-width: 821px) {
+    .cold-brew-gif,
+    .cold-brew1, 
+    .cold-brew2,
+    .cold-brew3,
+    .cold-brew4 {
+        position: static;
+    }
+
+    .cold-brew-gif {
+        width: 100%;
+        margin: 1.5rem 0;
+    }
+
+    .cold-brew1,
+    .cold-brew2,
+    .cold-brew3,
+    .cold-brew4 {
+        width: 47%;
+    }
+
+    .cold-brew1,
+    .cold-brew3 {
+        margin-right: 1.5rem;
+    }
+
+    .project-ohmy .images {
+        margin-top: 5rem;
+    }
+
+    .padding-container {
+        padding: 0 1.5rem;
+    }
+
+    
+}
+
+@media (max-width: 600px) {
+    .cold-brew1,
+    .cold-brew2,
+    .cold-brew3,
+    .cold-brew4 {
+        width: 45%;
+    }
+}
+
+.adweetech1 {
+    width: 44rem;
+}
+
+.adweetech2,
+.adweetech3 {
+    width: 21rem;
+}
+
+.adweetech2 {
+    position: absolute;
+    z-index: 0;
+    top: 198%;
+    left: 52%;
+}
+
+.adweetech3 {
+    position: absolute;
+    z-index: 1;
+    top: 224%;
+    left: 70%;
+}
+
+@media (max-width: 821px) {
+    .project-adweetech .heading-container,
+    .project-mon-camina .heading-container {
+        margin: 5rem 0 3.5rem 0;
+    }
+
+    .adweetech1 {
+        width: 100%;
+        margin: 1.5rem 0;
+    }
+
+    .adweetech2,
+    .adweetech3 {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    
+}
+
+.project-mon-camina .images {
+    display: flex;
+    align-items: center;
+}
+
+.mon-camina1 {
+    width: 62rem;
+    margin-right: 3.5rem;
+}
+
+.mon-camina2 {
+    width: 15rem;
+}
+
+@media (max-width: 821px) {
+    .mon-camina1 {
+        width: 78%;
+        margin: 0 2rem 0 0;
+    }
+
+    .mon-camina2 {
+        width: 18%;
+    }
+
+    
+}
+
+@media (max-width: 600px) {
+    .mon-camina1 {
+        width: 77%;
+        margin: 0 1.5rem 0 0;
+    }
+
+    .mon-camina2 {
+        width: 17%;
+    }
+}
+
+.ny-ohmy,
+.posters,
+.content img {
+    width: 100%;
+}
+
+.poster-mobile,
+.photos-mobile {
+    display: none;
+}
+
+@media (max-width: 821px) {
+    .ny-ohmy {
+        display: none;
+    }
+
+    .poster-mobile,
+    .photos-mobile {
+        display: block;
+    }
+
+    .poster-mobile {
+        width: 100%;
+        margin-top: 5rem;
+        padding: 0 1.5rem;
+    }
+
+    .photos-mobile {
+        width: 100%;
+        margin: 3rem 0;
+    }
+}
+
+.posters-heading {
+    margin: 5rem 0;
+}
+
+@media (max-width: 600px) {
+    .posters-heading {
+        margin: 3rem 0;
+    }
+    
+}
+
+img.vino-mobile, 
+img.five-mobile {
+    display: none;
+}
+
+@media (max-width: 821px) {
+    .posters {
+        display: none;
+    }
+
+    .project-posters .heading-container {
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+    }
+
+    img.vino-mobile, 
+    img.five-mobile {
+        display: block;
+        width: 124%;
+    }
+
+    .hide-desktop {
+        display: block;
+    }
+
+    img.five-mobile {
+        width: 129%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    img.vino-mobile, 
+    img.five-mobile {
+        display: block;
+        width: 100%;
+    }
+}
+
+
+.desc p {
+    max-width: 32rem;
+}
+
+.gif-container {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+@media (max-width: 821px) {
+    .gif-container {
+        margin-bottom: 3rem;
+    }
+}
+
+.gif-container .picture {
+    width: 18rem;
+    height: 26rem;
+    margin-right: 5rem;
+}
+
+.gif-container .gif {
+    height: 32rem;
+}
+
+.content {
+    margin-top: 5rem;
+}
+
