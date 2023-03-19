@@ -347,7 +347,7 @@ footer {
 
 }
 
-@media(max-width: 376px) {
+@media(max-width: 400px) {
     .image2 {
         top: 75%;
     }
@@ -538,7 +538,7 @@ footer {
     }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 400px) {
     .experience {
         padding-top: 2rem;
     }
@@ -730,7 +730,7 @@ footer {
     }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 400px) {
     .cold-brew1,
     .cold-brew2,
     .cold-brew3,
