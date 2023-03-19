@@ -180,6 +180,7 @@ footer {
 }
 
 .image1 {
+    display: none;
     position: absolute;
     width: 16rem;
     left: 6%;
@@ -187,6 +188,7 @@ footer {
 }
 
 .image2 {
+    display: none;
     position: absolute;
     width: 14rem;
     right: 0;
@@ -194,6 +196,7 @@ footer {
 }
 
 .image3 {
+    display: none;
     position: absolute;
     width: 12rem;
     left: 276px;
@@ -201,6 +204,7 @@ footer {
 }
 
 .image4 {
+    display: none;
     position: absolute;
     width: 19rem;
     right: 8%;
@@ -208,6 +212,7 @@ footer {
 }
 
 .image5 {
+    display: none;
     position: absolute;
     width: 15rem;
     right: 5%;
@@ -215,6 +220,7 @@ footer {
 }
 
 .image6 {
+    display: none;
     position: absolute;
     width: 6rem;
     left: 0;
@@ -222,6 +228,7 @@ footer {
 }
 
 .image7 {
+    display: none;
     position: absolute;
     width: 17rem;
     right: 430px;
@@ -229,6 +236,7 @@ footer {
 }
 
 .image8 {
+    display: none;
     position: absolute;
     width: 6rem;
     left: 40%;
@@ -236,6 +244,7 @@ footer {
 }
 
 .image9 {
+    display: none;
     position: absolute;
     width: 6rem;
     left: 54%;
@@ -748,27 +757,20 @@ footer {
 }
 
 .adweetech1 {
-    width: 44rem;
+    width: 50%;
+    height: 30%;
+
 }
 
-.adweetech2,
-.adweetech3 {
-    width: 21rem;
+.adweetech-desktop {
+    width: 50%;
+    height: 30%;
 }
 
-.adweetech2 {
-    position: absolute;
-    z-index: 0;
-    top: 198%;
-    left: 52%;
+.project-adweetech .images {
+    display: flex;
 }
 
-.adweetech3 {
-    position: absolute;
-    z-index: 1;
-    top: 224%;
-    left: 70%;
-}
 
 @media (max-width: 821px) {
     .project-adweetech .heading-container,
@@ -781,8 +783,7 @@ footer {
         margin: 1.5rem 0;
     }
 
-    .adweetech2,
-    .adweetech3 {
+    .adweetech-desktop {
         display: none;
     }
 }
