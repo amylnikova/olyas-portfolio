@@ -349,15 +349,15 @@ footer {
 
 @media(max-width: 400px) {
     .image2 {
-        top: 75%;
-    }
-
-    .image1{
         top: 85%;
     }
 
+    .image1{
+        top: 95%;
+    }
+
     .image8 {
-        top: 105%;
+        top: 115%;
     }
 }
 
@@ -544,7 +544,7 @@ footer {
     }
 
     .image10 {
-        top: 33%;
+        top: 36%;
 
     }
 
@@ -553,15 +553,15 @@ footer {
     }
 
     .image12 {
-        top: 15%;
+        top: 18%;
     }
 
     .image13 {
-        top: 60%;
+        top: 67%;
     }
 
     .image14 {
-        top: 116%;
+        top: 126%;
     }
 }
 
