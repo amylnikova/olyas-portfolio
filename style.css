@@ -347,6 +347,20 @@ footer {
 
 }
 
+@media(max-width: 376px) {
+    .image2 {
+        top: 75%;
+    }
+
+    .image1{
+        top: 85%;
+    }
+
+    .image8 {
+        top: 105%;
+    }
+}
+
 /* about */
 
 .about-me {
@@ -524,6 +538,33 @@ footer {
     }
 }
 
+@media (max-width: 376px) {
+    .experience {
+        padding-top: 2rem;
+    }
+
+    .image10 {
+        top: 33%;
+
+    }
+
+    .image11 {
+        top: 110%;
+    }
+
+    .image12 {
+        top: 15%;
+    }
+
+    .image13 {
+        top: 60%;
+    }
+
+    .image14 {
+        top: 116%;
+    }
+}
+
 /* projects */
 
 
@@ -686,6 +727,15 @@ footer {
     .cold-brew3,
     .cold-brew4 {
         width: 45%;
+    }
+}
+
+@media (max-width: 376px) {
+    .cold-brew1,
+    .cold-brew2,
+    .cold-brew3,
+    .cold-brew4 {
+        width: 43%;
     }
 }
 
